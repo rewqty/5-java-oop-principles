@@ -15,5 +15,6 @@ public class Task02Main {
         bill.add(ITEM3, 6);
         bill.add(ITEM6, 1);
         System.out.println(bill.getDiscountPrice());
+        System.out.println(bill.getDiscountedSum());
     }
 }
